@@ -3,61 +3,131 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #121212;
+    color: #e0e0e0;
     line-height: 1.6;
 }
 
 /* Header */
 header {
-    background-color: #333;
-    color: white;
-    padding: 10px;
+    background-color: #1f1f1f;
+    color: #00ffcc;
+    padding: 20px;
     text-align: center;
+    border-bottom: 2px solid #00ffcc;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 2px 2px #000;
 }
+
+/* Navigation */
 nav a {
-    color: white;
-    padding: 10px;
+    color: #00ffcc;
+    padding: 10px 15px;
     text-decoration: none;
-    margin: 0 5px;
+    margin: 0 10px;
+    background-color: #1f1f1f;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
 }
 nav a:hover {
-    background-color: #555;
+    background-color: #00ff99;
+    color: #121212;
 }
 
 /* Section Styles */
 section {
     margin: 20px;
     padding: 20px;
-    background-color: white;
+    background-color: #1e1e1e;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    border: 1px solid #333;
+}
+
+/* Cards for Graphics */
+.card {
+    background-color: #242424;
+    padding: 15px;
+    margin: 15px;
     border-radius: 10px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 5px 5px 20px rgba(0, 255, 204, 0.5);
+}
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.card h3 {
+    color: #00ffcc;
+    margin-bottom: 10px;
 }
 
 /* Form */
 form input, form textarea, form button {
     width: 100%;
-    padding: 10px;
+    padding: 12px;
     margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    border: 2px solid #00ffcc;
+    border-radius: 8px;
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    font-size: 1rem;
+}
+form input:focus, form textarea:focus {
+    outline: none;
+    border-color: #00ffaa;
 }
 form button {
-    background-color: #333;
-    color: white;
+    background-color: #00ffcc;
+    color: #121212;
     cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
 }
 form button:hover {
-    background-color: #555;
+    background-color: #00ffaa;
 }
 
 /* Footer */
 footer {
     text-align: center;
-    padding: 10px;
-    background-color: #333;
-    color: white;
+    padding: 15px;
+    background-color: #1f1f1f;
+    color: #00ffcc;
+    border-top: 2px solid #00ffcc;
+    font-size: 1rem;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #1f1f1f;
+}
+::-webkit-scrollbar-thumb {
+    background: #00ffcc;
+    border-radius: 10px;
+}
+
+/* Animations */
+@keyframes glow {
+    0% { box-shadow: 0 0 5px #00ffcc; }
+    50% { box-shadow: 0 0 20px #00ffcc; }
+    100% { box-shadow: 0 0 5px #00ffcc; }
+}
+button:hover {
+    animation: glow 1s infinite alternate;
 }
