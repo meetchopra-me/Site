@@ -1,33 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - Meet Chopra</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Meet Chopra | Contact</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Contact Me</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
 
-    <section class="contact">
-        <h2>Get in Touch</h2>
-        <form>
-            <input type="text" placeholder="Your Name" required><br>
-            <input type="email" placeholder="Your Email" required><br>
-            <textarea placeholder="Your Message" required></textarea><br>
-            <button type="submit">Send Message</button>
-        </form>
-    </section>
+<header>
+    <h1>Contact Me</h1>
+</header>
 
-    <footer>
-        <p>© 2025 Meet Chopra. All Rights Reserved.</p>
-    </footer>
+<nav>
+    <button onclick="location.href='index.html'">Home</button>
+    <button onclick="location.href='about.html'">About</button>
+    <button onclick="location.href='projects.html'">Projects</button>
+    <button onclick="location.href='contact.html'">Contact</button>
+</nav>
+
+<section>
+    <h2>Let's Connect</h2>
+    <form>
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; <span id="year"></span> Meet Chopra — Built with ❤️</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
