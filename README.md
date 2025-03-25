@@ -163,24 +163,3 @@ document.getElementById('year').textContent = new Date().getFullYear();
 
 
 ---
-
-📬 Contact for Modifications
-
-For any modifications or suggestions, feel free to reach out:
-
-🐦 meetchopra_me 
-
-📸 meetchopra_me
-
-🧑‍💻 meetchopra-me
-
-📧 meetchopra262@gmail.com
-
-
-
----
-
-✅ Let's build something amazing together!
-
-This version now excludes Deployment and Screenshots as requested. Let me know if you need further adjustments!
-
