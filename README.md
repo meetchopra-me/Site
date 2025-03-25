@@ -1,22 +1,39 @@
-🌟 Meet Chopra — Personal Website
+👋 Hi, I'm @meetchopra-me
 
-A sleek, dark-themed personal portfolio website to showcase skills, projects, and contact information. Built with HTML, CSS, and JavaScript.
+🔍 About Me:
+
+🌟 I'm interested in technology, web development, and innovative solutions.
+
+🎯 Currently learning Web Development, Automation, and Problem-Solving.
+
+🤝 Looking to collaborate on open-source projects and creative tech solutions.
+
+📫 How to reach me:
+
+Twitter:-   meetchopra_me
+
+Instagram:- meetchopra_me
+
+GitHub:-    meetchopra-me
+
+📧 meetchopra262@gmail.com 
+
+
+
+🏷️ Pronouns:
+
+He/Him
+
+
+🎉 Fun Fact:
+
+🚀 I thrive on learning and exploring new technologies while turning ideas into reality.
+
 
 
 ---
 
-🏗️ Folder Structure
-
-/meet-chopra-portfolio
-├── /assets
-│   └── /images
-├── index.html          # Home Page
-├── about.html          # About Page
-├── projects.html       # Projects Page
-├── contact.html        # Contact Page
-├── styles.css          # Global Styling
-├── script.js           # Shared JavaScript
-
+✅ Let's build something amazing together!
 
 ---
 
