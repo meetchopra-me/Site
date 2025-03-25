@@ -1,59 +1,56 @@
-/* Hero Section */
-.hero {
-    background: linear-gradient(145deg, #1a1a1a, #0f0f0f);
-    text-align: center;
-    padding: 60px;
-    border-radius: 15px;
-    margin-bottom: 20px;
-    color: #00ffcc;
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.hero button {
-    padding: 15px 30px;
-    font-size: 1.2rem;
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(145deg, #0a0a0a, #1a1a1a);
+    color: #e0e0e0;
 }
 
-/* Services Section */
-.service-cards {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-.service-card {
-    background: rgba(255, 255, 255, 0.05);
+/* Header */
+header {
     padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
-    flex: 1;
-    min-width: 200px;
     text-align: center;
+    background-color: #1a1a1a;
+    border-bottom: 2px solid #00ffcc;
 }
 
-/* Testimonials Section */
-.testimonial-card {
-    background: rgba(255, 255, 255, 0.07);
-    padding: 20px;
-    margin: 10px;
-    border-radius: 15px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    text-align: center;
-}
-
-/* Socials */
-.socials {
-    margin-top: 10px;
+/* Navigation */
+nav {
     display: flex;
     justify-content: center;
-    gap: 15px;
+    padding: 15px;
+    background-color: #1a1a1a;
 }
-.socials a {
-    text-decoration: none;
-    color: #00ffcc;
-    padding: 8px 15px;
-    border-radius: 15px;
-    background: rgba(255, 255, 255, 0.05);
-}
-.socials a:hover {
-    background: #00ffcc;
+nav button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #00ffcc;
+    border: none;
+    border-radius: 20px;
     color: #121212;
+    cursor: pointer;
+    transition: 0.3s;
+}
+nav button:hover {
+    background-color: #00ffaa;
+}
+
+/* Section */
+section {
+    padding: 20px;
+    text-align: center;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Footer */
+footer {
+    padding: 15px;
+    text-align: center;
+    background-color: #1a1a1a;
+    border-top: 2px solid #00ffcc;
 }
