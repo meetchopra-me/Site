@@ -1,8 +1,3 @@
-Here’s the updated README.md file with the Deployment section and Screenshots removed, as requested:
-
-
----
-
 🌟 Meet Chopra — Personal Website
 
 A sleek, dark-themed personal portfolio website to showcase skills, projects, and contact information. Built with HTML, CSS, and JavaScript.
